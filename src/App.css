@@ -1,0 +1,19 @@
+body { background: black; }
+.App {
+  text-align: center;
+}
+
+.App-header {
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-header a { color: white; font-weight: bold }
