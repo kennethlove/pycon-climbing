@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { GoogleMap, Marker, withGoogleMap, withScriptjs } from "react-google-maps"
-import logo from './logo.svg';
 import './App.css';
 
 const climbClevelandLat = 41.48198;
