@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { GoogleMap, Marker, withGoogleMap, withScriptjs } from "react-google-maps"
 import './App.css';
 
-const climbClevelandLat = 41.48198;
-const climbClevelandLong = -81.6895357;
+const climbClevelandLat = 41.481983;
+const climbClevelandLong = -81.687344;
 
 const MyMapComponent = withScriptjs(withGoogleMap((props) =>
   <GoogleMap defaultZoom={17} defaultCenter={{ lat: climbClevelandLat, lng: climbClevelandLong }}>
